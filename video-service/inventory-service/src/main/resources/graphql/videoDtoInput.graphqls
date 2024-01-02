@@ -1,0 +1,6 @@
+input VideoDtoInput{
+    name: String,
+    url: String,
+    description: String,
+    creator: CreatorDtoInput
+}

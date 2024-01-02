@@ -1,0 +1,8 @@
+type Query{
+    videoList: [VideoDto]
+    creatorById(id: Float): CreatorDto
+    creatorsList: [CreatorDto]
+    creatorVideoList(id: Float): [VideoDto]
+    videoByName(name: String): [VideoDto]
+    creatorByName(name: String): [CreatorDto]
+}

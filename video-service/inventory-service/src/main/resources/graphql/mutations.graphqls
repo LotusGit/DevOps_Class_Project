@@ -1,0 +1,4 @@
+type Mutation{
+    saveVideo(videoDtoInput: VideoDtoInput): VideoDto
+    saveCreator(creatorDtoInput: CreatorDtoInput): CreatorDto
+}
